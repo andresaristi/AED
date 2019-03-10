@@ -6,15 +6,6 @@ import org.junit.Test;
 
 public class FixedPointTest {
 		
-		private String arregloToString(int[] a){
-			String arrStr = "[";
-			String sep = "";
-			for (int i = 0; i < a.length; i++) {
-				arrStr += sep + a[i];
-				sep = " ";
-			}
-			return arrStr+"]";
-		}
 		
 		@Test
 		public void test01() {

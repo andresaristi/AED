@@ -15,7 +15,7 @@ public class FixedPointTest {
 		
 		@Test
 		public void test02() {
-			int[] array = new int[]{-10, -5, 0, 1, 3, 4, 6, 7, 13, 14};
+			int[] array = new int[]{-10, -5, 0, 1, 3, 4, -6, 7, 13, 14};
 			assertEquals(Seguimiento8.findFixedPointInArray(array),7);
 		}
 		
